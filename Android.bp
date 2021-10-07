@@ -109,6 +109,7 @@ android_library {
         "SettingsLib",
         "colorkt",
         "themelib",
+        "monet",
     ],
     manifest: "AndroidManifest-common.xml",
     sdk_version: "current",

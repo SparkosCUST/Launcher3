@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application name -->
-    <string name="crdroid_app_name" translatable="false">crDroid Home</string>
+    <string name="crdroid_app_name" translatable="false">Spark Launcher</string>
 
     <!-- Folder titles -->
     <string name="google_folder_title" translatable="false">Google</string>
@@ -143,7 +143,7 @@
     <string name="quickspace_date_format_minimalistic" translatable="false">EEE, MMM d</string>
 
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
-    <string name="quick_event_rom_intro_welcome">Welcome to crDroid!</string>
+    <string name="quick_event_rom_intro_welcome">Welcome to Spark!</string>
     <string-array name="welcome_message_variants">
         <item>Have a great day</item>
         <item>Thank you for choosing us</item>
@@ -180,6 +180,25 @@
         <item>You should change your alarm sounds.</item>
         <item>Looks like it\'s a beautiful day, isn\'t it?</item>
         <item>Let\'s get this bread.</item>
+        <item>A little walk seems nice.</item>
+        <item>Brush your teeth mindfully.</item>
+        <item>Start your day hydrated!</item>
+        <item>Get some exercise!</item>
+        <item>Stretch things out!</item>
+        <item>Start your day with positivity.</item>
+        <item>A nice morning it is!</item>
+        <item>Always check device\'s battery levels!</item>
+        <item>Don\'t forget to prepare breakfast.</item>
+        <item>Check the weather, just in case.</item>
+        <item>Don\'t forget to check your notes!</item>
+        <item>Always check your email/messages.</item>
+        <item>Check your schedule if you have one.</item>
+        <item>Good luck today!</item>
+        <item>Toggling the switch can fix stucked responses.</item>
+        <item>Start your day with any hot beverage.</item>
+        <item>Don\'t forget about protein.</item>
+        <item>Eggs make a simple, nutritious breakfast.</item>
+        <item>Enjoy your breakfast.</item>
         <item>Check the weather just in case</item>
         <item>Feeling a bit sleepy yet</item>
         <item>Have you looked outside yet?</item>
@@ -189,6 +208,15 @@
     <string-array name="quickspace_psa_evening">
         <item>Good night!</item>
         <item>Sleep well!</item>
+        <item>Don\'t drink too much water before sleeping.</item>
+        <item>It is evening right now.</item>
+        <item>Try to avoid overnight charging if possible.</item>
+        <item>Remember to check your email/messages.</item>
+        <item>Please check your to-do list if you have one.</item>
+        <item>Remember to eat dinner.</item>
+        <item>8 hours of sleep is a must.</item>
+        <item>Enjoy the night.</item>
+        <item>Re-enable glance to fix stucked responses.</item>
         <item>See you tomorrow!</item>
         <item>Sweet dreams!</item>
         <item>Don\'t stay up too long</item>
@@ -204,12 +232,21 @@
     <string-array name="quickspace_psa_midnight">
         <item>Um... good night?</item>
         <item>It\'s a bit late now</item>
+        <item>Sleep defficiency is bad for your health.</item>
+        <item>Don\'t forget to stay hydrated.</item>
+        <item>Being sleep deficit can break melatonin production.</item>
+        <item>It is midnight right now.</item>
+        <item>Sleeping late is not healthy.</item>
+        <item>You need to sleep now.</item>
+        <item>Don\'t forget to sleep/prepare your breakfast.</item>
+        <item>Enjoy the midnight.</item>
+        <item>Re-enable glance to fix stucked responses.</item>
+        <item>Please take care of yourself.</item>
         <item>You should fix your sleep schedule</item>
         <item>Are you more productive at this time?</item>
     </string-array>
 
     <string-array name="quickspace_psa_random">
-        <item>Ignorance is Bliss</item>
         <item>Is it time to flash another update already?</item>
         <item>Make peace, not war</item>
         <item>Oh hey, what\'s up?</item>
@@ -218,9 +255,6 @@
         <item>Open goodness with crDroid</item>
         <item>Spread love, not havoc</item>
         <item>We didn\'t start the fire!</item>
-        <item>Time for some good music</item>
-        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
-        <item>You need crDroid Premium to see this</item>
         <item>Remember the Lineage of the Unicorn</item>
         <item>Enjoy Xtended battery life</item>
         <item>Starting from the ground zero</item>
@@ -228,21 +262,35 @@
         <item>Delicious even without Sushi</item>
         <item>Do something nice today</item>
         <item>This is best Pixel Experience, isn\'t it?</item>
-        <item>How is everything going?</item>
-        <item>No illusions, welcome to reality!</item>
-        <item>Thank you for your support</item>
-        <item>No festival for Derps - only perfection!</item>
-        <item>One of the buildbot\'s best picks</item>
         <item>Sanity for your Paranoia</item>
         <item>Try Ice Cold desserts</item>
         <item>What a lovely experience, isn\'t it?</item>
         <item>Evolution is a myth, right?</item>
         <item>You are what you flash, don\'t be Potato</item>
         <item>What\'s on your mind?</item>
-        <item>Expecto Patronum</item>
-        <item>Wubba Lubba Dub Dub</item>
-        <item>Winner Winner ....?</item>
-        <item>rm -rf \/</item>
+        <item>There are easter eggs hidden on this ROM.</item>
+        <item>Try checking the weather settings.</item>
+        <item>Try to avoid UV rays during noon.</item>
+        <item>Stay Hydrated!</item>
+        <item>Pringles aren\'t actually potato chips..</item>
+        <item>Laughing can increase bloodflow.</item>
+        <item>Coffee contains antioxidants.</item>
+        <item>Ketchup was once sold as medicine.</item>
+        <item>Cotton candy was invented by a dentist.</item>
+        <item>Don\'t skip your meal!</item>
+        <item>Remember to check device\'s battery levels!</item>
+        <item>Check your email/messages.</item>
+        <item>Check your to-do list if you have one.</item>
+        <item>You can disable me via home settings.</item>
+        <item>Go get them!</item>
+        <item>Re-enable glance to fix responses.</item>
+        <item>Time for lunch!</item>
+        <item>Kalamay is made of glutinous rice.</item>
+        <item>All white rice starts brown.</item>
+        <item>Want some soda?</item>
+        <item>Always bring water to stay hydrated.</item>
+        <item>Space smells like seared steak..</item>
+        <item>Enjoy your day!</item>
     </string-array>
     
     <!-- Suggestions -->

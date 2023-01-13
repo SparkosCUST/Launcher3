@@ -399,4 +399,7 @@
     <!-- App drawer searchbar -->
     <string name="drawer_search_title">App search bar</string>
     <string name="drawer_search_summary">Search bar on top of the app drawer</string>
+
+    <string name="recents_meminfo_position_title">Memory info position</string>
+    <string name="recents_meminfo_position_summary">Change the location of memory info on recents</string>
 </resources>

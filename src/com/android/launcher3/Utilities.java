@@ -193,6 +193,7 @@ public final class Utilities {
     public static final String KEY_APP_DRAWER_OPACITY = "pref_app_drawer_opacity";
     public static final String KEY_RECENTS_MEMINFO = "pref_recents_meminfo";
     public static final String KEY_DRAWER_SEARCH = "pref_drawer_search";
+    public static final String KEY_RECENTS_MEMINFO_POSITION = "pref_recents_meminfo_position";
 
     /**
      * Returns true if theme is dark.
@@ -1100,7 +1101,12 @@ public final class Utilities {
         return prefs.getInt(KEY_BLUR_DEPTH,
                 (int) context.getResources().getDimension(R.dimen.max_depth_blur_radius));
     }
-
+    
+    public static boolean isMemInfoOnTop(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_RECENTS_MEMINFO_POSITION, false);
+    }
+    
     public static boolean showQuickspace(Context context) {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(DESKTOP_SHOW_QUICKSPACE, true);
